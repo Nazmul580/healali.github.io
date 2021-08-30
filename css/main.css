@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 6.3rem 0rem;
+}
+
+
+/* navbar css  */
+
+.navbar .container .navbar-brand {
+    font-size: 1.5rem;
+    font-family: "Poppins";
+    color: rgb(246, 250, 255);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+.navbar .container .navbar-brand img {
+    margin-right: .8rem;
+    width: 2.7rem;
+}
+
+.navbar .container .navbar-toggler {
+    outline: none !important;
+}
+
+.navbar .container .navbar-toggler span i {
+    color: #000;
+}
+
+.navbar {
+    background: transparent;
+    z-index: 1;
+    padding: 1rem 0rem;
+}
+
+div#navbarSupportedContent ul li a {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: "Poppins";
+    line-height: 1.2;
+}
+
+div#navbarSupportedContent ul li .active {
+    color: rgb(246, 250, 255);
+}
+
+div#navbarSupportedContent ul li {
+    margin-left: 2rem;
+}
+
+div#navbarSupportedContent ul li:hover>a {
+    color: rgb(246, 250, 255);
+}
+
+
+/* header css  */
+
+.main-header {
+    width: 100%;
+    height: 100vh;
+    background: url("../image/slider.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.main-header::after {
+    content: '';
+    left: 0;
+    top: 0;
+    width: 47%;
+    height: 100vh;
+    position: absolute;
+    background: rgb(28, 29, 32);
+    opacity: 0.941;
+}
+
+.main-header::before {
+    content: '';
+    right: 0;
+    top: 0;
+    width: 53%;
+    height: 100vh;
+    background: rgb(32, 249, 191);
+    position: absolute;
+    opacity: 0.89;
+}
+
+.header-contanet {
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.header-contanet h1 {
+    font-size: 4.5rem;
+    font-family: "Poppins";
+    font-weight: bold;
+    line-height: 1.2;
+    color: rgb(246, 250, 255);
+    text-align: center;
+    padding-right: 1.5rem;
+}
+
+.header-contanet h1 span {
+    color: #000;
+    padding-left: 1.5rem;
+}
+
+.header-btn {
+    border: 1px solid #fff;
+    padding: 0.8rem 1rem;
+    background: transparent;
+    width: 10rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    position: absolute;
+    top: 152%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+}
+
+.header-btn:hover {
+    background-color: rgb(5, 250, 182);
+}
+
+.header-btn:hover>a {
+    color: #000;
+}
+
+.header-btn a {
+    color: rgb(246, 250, 255);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.header-btn i {
+    color: rgb(5, 250, 182);
+    font-size: .6rem;
+    padding-top: -12rem;
+    position: absolute;
+    padding-left: -3rem;
+    top: 41%;
+    left: 13%;
+}
+
+.header-btn:hover>i {
+    color: rgb(246, 250, 255);
+}
+
+
+/* header section end  */
+
+
+/* about section start  */
+
+.section-title h1 {
+    font-size: 0px, 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Poppins";
+    line-height: 1.2;
+    text-align: left;
+}
+
+.section-title h1 span {
+    color: rgb(5, 250, 184);
+    margin-right: .8rem;
+}
+
+
+/* section.about-section {
+margin: 6.3rem 0rem;
+} */
+
+.section-title p {
+    /* width: 60.4rem; */
+    font-size: .9rem;
+    font-family: "Poppins";
+    color: rgba(47, 48, 49, 0.839);
+    line-height: 1.444;
+}
+
+.section-title p span {
+    font-weight: bold;
+}
+
+.about-div-wreper {
+    margin-top: 5rem;
+}
+
+.about-div img {
+    width: 4.6rem;
+}
+
+.about-div h1 {
+    font-size: 3rem;
+    font-family: "Poppins";
+    color: rgb(47, 48, 49);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 0.542;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+#active {
+    margin-top: -1.7rem;
+}
+
+.about-div p {
+    font-size: 1.1rem;
+    font-family: "Poppins";
+    color: rgb(47, 48, 49);
+    line-height: 1.444;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.about-div p span {
+    color: rgb(32, 249, 191);
+}
+
+
+/* about section end  */
+
+
+/* service section start  */
+
+.service-section {
+    background-color: rgb(248, 250, 250);
+}
+
+.service-box {
+    margin-top: 2rem;
+}
+
+.service-box:hover>i {
+    color: rgb(5, 250, 182);
+}
+
+.service-box:hover>.service-btn>i {
+    color: #000;
+}
+
+.service-box:hover>.service-btn>a {
+    color: rgb(5, 250, 182);
+}
+
+.service-box:hover>.service-btn {
+    border-color: rgb(5, 250, 182);
+}
+
+.service-box-wreper {
+    margin-top: 3rem;
+}
+
+.service-box i {
+    font-size: 2.3rem;
+    color: rgb(47, 48, 49);
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.service-box h1 {
+    font-size: 2.2rem;
+    font-family: "Poppins";
+    color: rgb(47, 48, 49);
+    font-weight: bold;
+    line-height: 0.722;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.service-box p {
+    font-size: 1rem;
+    font-family: "Poppins";
+    color: rgba(47, 48, 49, 0.902);
+    line-height: 1.444;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.service-btn {
+    border: .1rem solid #000;
+    padding: 0.8rem 1rem;
+    background: transparent;
+    width: 10rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    position: relative;
+}
+
+.service-btn:hover {
+    border-color: rgb(5, 250, 182);
+}
+
+.service-btn:hover>a {
+    color: rgb(5, 250, 182);
+}
+
+.service-btn a {
+    font-size: 1.1rem;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.service-btn i {
+    color: rgb(5, 250, 182);
+    font-size: .6rem;
+    padding-top: -12rem;
+    position: absolute;
+    padding-left: -3rem;
+    top: 41%;
+    left: 13%;
+}
+
+.service-btn:hover>i {
+    color: #000;
+}
+
+
+/* service section end  */
+
+
+/* skill section start  */
+
+.skill-img-div img {
+    width: 75%;
+    float: right;
+}
+
+.skill-div {
+    margin-top: 4rem;
+}
+
+.progress {
+    width: 90%;
+    height: 0.7rem;
+    margin-bottom: 2rem;
+}
+
+.name h3 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+}
+
+
+/* skill section end  */
+
+
+/* protfolio section start  */
+
+section.protfolio-section {
+    margin-top: -7rem;
+}
+
+.protfolio-btn {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.protfolio-btn ul li {
+    list-style: none;
+    float: left;
+    margin-right: 1.5rem;
+}
+
+.protfolio-btn ul {
+    margin-left: -2rem !important;
+}
+
+.protfolio-btn ul li a {
+    font-size: 1rem;
+    color: #000;
+    font-family: "Poppins";
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.protfolio-btn ul li:hover {
+    color: rgb(5, 250, 184);
+}
+
+.protfolio-btn ul .active {
+    color: rgb(5, 250, 184);
+}
+
+.protfolio-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.protfolio-item {
+    width: 16.8rem;
+    position: relative;
+    height: 17.8rem;
+    overflow: hidden;
+    margin: 0.5rem 0.5rem;
+    padding: 0;
+}
+
+.protfolio-item::after {
+    content: '';
+    width: 100%;
+    top: 50%;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    background: #0000009c;
+    position: absolute;
+    transition: all .6s;
+    border-radius: 80%;
+}
+
+.protfolio-item:hover:after {
+    transform: translate(-50%, -50%);
+    border-radius: 0%;
+}
+
+.protfolio-item a {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: transparent;
+    padding: .5ren 1rem;
+    padding: 8px 14px;
+    border-radius: 5px;
+    border: 1 px solid;
+    border: 1px solid rgb(5, 250, 184);
+    transition: all .6s;
+}
+
+.protfolio-item:hover>a {
+    top: 50%;
+}
+
+.protfolio-item a:hover {
+    border-color: rgb(246, 250, 255);
+    background: rgb(5, 250, 184);
+}
+
+
+/* protfolio section end  */
+
+
+/* contact section start  */
+
+.contact-us {
+    background-image: url('../image/contact-img.jpg');
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    padding: 5rem 0rem;
+}
+
+.contact-btn {
+    border: .1rem solid rgb(5, 250, 182);
+    padding: 0.8rem 1rem;
+    background: transparent;
+    width: 10rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.contact-btn:hover {
+    border-color: #fff;
+    background: rgb(5, 250, 182);
+}
+
+.contact-btn:hover>a {
+    color: #000;
+}
+
+.contact-btn a {
+    font-size: 1.1rem;
+    color: rgb(5, 250, 182);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.contact-btn i {
+    color: #fff;
+    font-size: .6rem;
+    padding-top: -12rem;
+    position: absolute;
+    padding-left: -3rem;
+    top: 41%;
+    left: 13%;
+}
+
+.contact-btn:hover>i {
+    color: #fff;
+}
+
+.contact-us h1 {
+    font-size: 3rem;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.433;
+}
+
+.contact-us p {
+    font-size: 1.2rem;
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-top: 3rem;
+}
+
+.contact-section {
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.contact-us h1 span {
+    color: rgb(5, 250, 182);
+}
+
+.contact-us p span {
+    color: rgb(5, 250, 182);
+}
+
+.contact-us-from {
+    margin-top: 0rem;
+    padding-top: 0rem;
+}
+
+
+/* contact section start  */
+
+input#Subject,
+input#email,
+#textarea {
+    border: none;
+    border-bottom: 2px solid rgb(5, 249, 183);
+    border-radius: 0;
+}
+
+.submit-btn {
+    border: .1rem solid rgb(5, 250, 182);
+    padding: 0.8rem 1rem;
+    background: transparent;
+    width: 10rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    position: relative;
+    margin-top: 2rem;
+    color: #000;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.submit-btn:hover {
+    border-color: #000;
+    background: rgb(5, 250, 182);
+}
+
+.submit-btn i {
+    color: rgb(5, 250, 182);
+    font-size: .6rem;
+    padding-top: -12rem;
+    position: absolute;
+    padding-left: -3rem;
+    top: 41%;
+    left: 13%;
+}
+
+.submit-btn:hover>i {
+    color: #fff;
+}
+
+.contact-us-from {
+    padding-bottom: 0rem;
+}
+
+.footer-contant p {
+    font-size: 1.1rem;
+    font-family: "Poppins";
+    color: rgb(39, 42, 45);
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.footer-contant p span {
+    color: rgb(5, 250, 182);
+}
+
+@media (max-width: 1024px) {
+    .protfolio-item {
+        width: 14rem;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    div#navbarSupportedContent ul li a {
+        color: rgb(25, 190, 146);
+        text-align: center;
+    }
+    div#navbarSupportedContent ul li:hover>a {
+        color: #fff;
+    }
+    #active {
+        margin: 3rem 0rem;
+    }
+    .skill-img-div {
+        display: grid;
+        place-items: center;
+    }
+    .skill {
+        display: grid;
+        place-items: center;
+    }
+    .section-title h1 {
+        text-align: center;
+    }
+    .section-title p {
+        display: none;
+    }
+    .service-box {
+        display: grid;
+        place-items: center;
+        margin-bottom: 3rem;
+    }
+    .service-section {
+        background-color: rgb(248, 250, 250);
+        padding-bottom: 0;
+    }
+    .about-div {
+        display: grid;
+        place-items: center;
+    }
+    .protfolio-item {
+        width: 21.5rem;
+        height: auto;
+    }
+    .contact-us h1 {
+        font-size: 2rem;
+    }
+    .contact-us p {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    div#navbarSupportedContent ul li a {
+        color: rgb(25, 190, 146);
+        text-align: center;
+    }
+    div#navbarSupportedContent ul li:hover>a {
+        color: #fff;
+    }
+    #active {
+        margin: 3rem 0rem;
+    }
+    .skill-img-div {
+        display: grid;
+        place-items: center;
+    }
+    .skill {
+        display: grid;
+        place-items: center;
+    }
+    .section-title h1 {
+        text-align: center;
+    }
+    .section-title p {
+        display: none;
+    }
+    .service-box {
+        display: grid;
+        place-items: center;
+        margin-bottom: 3rem;
+    }
+    .service-section {
+        background-color: rgb(248, 250, 250);
+        padding-bottom: 0;
+    }
+    .about-div {
+        display: grid;
+        place-items: center;
+    }
+    .protfolio-item {
+        width: 22.5rem;
+        height: auto;
+    }
+    .contact-us h1 {
+        font-size: 2rem;
+    }
+    .contact-us p {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .footer-contant p {
+        font-size: 1rem;
+    }
+}
